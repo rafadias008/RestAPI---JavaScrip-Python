@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Minas Move Bem</title>
+        <link rel="stylesheet" href="/static/style.css"/>
+    </head>
+    <body>
+        <input type="text" id = "car_maker" placeholder="Marca"><br>
+        <input type="text" id = "car_model" placeholder="Modelo"><br>
+        <input type="text" id = "car_kilometers" placeholder="KMs"> <br>
+        <input type="text" id = "car_color" placeholder="Cor"><br>
+        <input type="text" id = "car_price" placeholder="Preço"><br>
+        <input type="text" id = "car_year" placeholder="Ano"><br>
+
+        
+        <button onclick="saveCar()" id = "ButtonSalvarArquivo">Carregar Carro</button>
+        <button onclick="renderCars()">Listar carros</button>
+
+        <div id="car-list"></div>
+        
+        <script src="/static/app.js"></script>
+    </body>
+</html>
